@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 
 const ATLAS = process.env.ATLAS;
 
-mongoose.connect("mongodb+srv://zuptex:U6LbrHEqtFawmowd@cluster0.qpnemz1.mongodb.net/blogDB");
+mongoose.connect("ATLAS");
 
 const postSchema = new mongoose.Schema({
   title: String,
